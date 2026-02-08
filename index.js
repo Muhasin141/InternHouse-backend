@@ -30,24 +30,7 @@ initializeDatabase().then(async () => {
 });
 
 
-// ===============================
-// Seed Jobs Function
-// ===============================
-async function seedJobData() {
-  try {
-    const count = await Job.countDocuments();
 
-    if (count > 0) {
-      console.log("Jobs already exist. Skipping seeding.");
-      return;
-    }
-
-    await Job.insertMany(jobsData);
-    console.log("✔ Jobs Seeded Successfully");
-  } catch (error) {
-    console.error("❌ Error seeding jobs:", error);
-  }
-}
 
 // ===============================
 // Routes
