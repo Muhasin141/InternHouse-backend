@@ -19,6 +19,18 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // ===============================
+// Initialize DB and Start Server
+// ===============================
+initializeDatabase().then(async () => {
+  await seedJobData();   // 🔥 CALL SEED HERE
+
+  app.listen(PORT, () => {
+    console.log(`🚀 Server started on port ${PORT}`);
+  });
+});
+
+
+// ===============================
 // Seed Jobs Function
 // ===============================
 async function seedJobData() {
@@ -85,13 +97,4 @@ app.delete("/jobs/:id", async (req, res) => {
   }
 });
 
-// ===============================
-// Initialize DB and Start Server
-// ===============================
-initializeDatabase().then(async () => {
-  await seedJobData();   // 🔥 CALL SEED HERE
 
-  app.listen(PORT, () => {
-    console.log(`🚀 Server started on port ${PORT}`);
-  });
-});
