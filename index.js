@@ -21,11 +21,9 @@ app.use(express.json());
 // ===============================
 // Initialize DB and Start Server
 // ===============================
-initializeDatabase().then(async () => {
-  await seedJobData();   // 🔥 CALL SEED HERE
-
+initializeDatabase().then(() => {
   app.listen(PORT, () => {
-    console.log(`🚀 Server started on port ${PORT}`);
+    console.log(`\n🚀 Server started on http://localhost:${PORT}`);
   });
 });
 
