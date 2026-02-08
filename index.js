@@ -40,7 +40,7 @@ app.get("/jobs", async (req, res) => {
     const jobs = await Job.find();
     res.json(jobs);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching jobs" });
+    res.status(500).json({ message: "Error fetching jobs",error:error });
   }
 });
 
