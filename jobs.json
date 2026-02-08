@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Software Engineer",
+    "companyName": "TechCorp",
+    "location": "San Francisco, CA",
+    "salary": 120000,
+    "jobType": "Full-time (On-site)",
+    "description": "Develop and maintain scalable web applications. Collaborate with cross-functional teams to deliver high-quality software.",
+    "qualifications": [
+      "Bachelor's degree in Computer Science or related field",
+      "3+ years of experience in full-stack development",
+      "Experience with React and Node.js"
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "companyName": "Bright Solutions",
+    "location": "New York, NY",
+    "salary": 95000,
+    "jobType": "Full-time (Remote)",
+    "description": "Build responsive user interfaces and improve user experience across web platforms.",
+    "qualifications": [
+      "Strong knowledge of HTML, CSS, JavaScript",
+      "Experience with React",
+      "Understanding of REST APIs"
+    ]
+  },
+  {
+    "title": "Backend Developer",
+    "companyName": "DataStream Inc.",
+    "location": "Austin, TX",
+    "salary": 105000,
+    "jobType": "Full-time (On-site)",
+    "description": "Design and implement server-side logic and maintain databases.",
+    "qualifications": [
+      "Experience with Node.js and Express",
+      "Knowledge of MongoDB",
+      "Understanding of authentication and authorization"
+    ]
+  },
+  {
+    "title": "UI/UX Designer",
+    "companyName": "Design Studio",
+    "location": "Seattle, WA",
+    "salary": 85000,
+    "jobType": "Part-time (On-site)",
+    "description": "Create user-centered designs and improve usability across applications.",
+    "qualifications": [
+      "Proficiency in Figma or Adobe XD",
+      "Strong portfolio of UI/UX projects",
+      "Understanding of user research principles"
+    ]
+  },
+  {
+    "title": "Data Analyst",
+    "companyName": "Insight Analytics",
+    "location": "Chicago, IL",
+    "salary": 90000,
+    "jobType": "Full-time (On-site)",
+    "description": "Analyze large datasets to extract meaningful insights for business decisions.",
+    "qualifications": [
+      "Experience with SQL",
+      "Knowledge of Python or R",
+      "Strong analytical skills"
+    ]
+  },
+  {
+    "title": "DevOps Engineer",
+    "companyName": "CloudTech",
+    "location": "Remote",
+    "salary": 115000,
+    "jobType": "Full-time (Remote)",
+    "description": "Maintain CI/CD pipelines and manage cloud infrastructure.",
+    "qualifications": [
+      "Experience with AWS or Azure",
+      "Knowledge of Docker and Kubernetes",
+      "Understanding of CI/CD pipelines"
+    ]
+  },
+  {
+    "title": "Content Writer",
+    "companyName": "Creative Ink",
+    "location": "Austin, TX",
+    "salary": 55000,
+    "jobType": "Part-time (Remote)",
+    "description": "Create engaging blog posts, articles, and marketing content.",
+    "qualifications": [
+      "Excellent writing skills",
+      "SEO knowledge",
+      "Experience with content management systems"
+    ]
+  },
+  {
+    "title": "Customer Support Representative",
+    "companyName": "Supportly",
+    "location": "Remote",
+    "salary": 45000,
+    "jobType": "Full-time (Remote)",
+    "description": "Assist customers with inquiries and provide technical support.",
+    "qualifications": [
+      "Strong communication skills",
+      "Problem-solving ability",
+      "Experience in customer service"
+    ]
+  },
+  {
+    "title": "Mobile App Developer",
+    "companyName": "AppWorks",
+    "location": "Los Angeles, CA",
+    "salary": 110000,
+    "jobType": "Full-time (On-site)",
+    "description": "Develop and maintain mobile applications for iOS and Android.",
+    "qualifications": [
+      "Experience with React Native or Flutter",
+      "Understanding of mobile UI principles",
+      "Knowledge of RESTful APIs"
+    ]
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "companyName": "SecureNet",
+    "location": "Boston, MA",
+    "salary": 100000,
+    "jobType": "Full-time (On-site)",
+    "description": "Monitor and protect company systems from cybersecurity threats.",
+    "qualifications": [
+      "Knowledge of network security",
+      "Experience with security tools",
+      "Understanding of risk assessment"
+    ]
+  }
+]
